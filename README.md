@@ -33,3 +33,12 @@ AQI-Prediction-India/
 ├── README.md
 ├── requirements.txt
 └── main.py                    # Main entry point (optional)
+
+
+# Air Quality Index (AQI) Prediction & Health Risk Classification for Indian Cities
+
+## Project Status
+
+✅ Day 1 Completed
+
+✅ Day 2 Completed
