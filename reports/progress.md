@@ -13,3 +13,12 @@
 - [x] Dataset overview
 - [x] Missing value analysis
 - [x] Unique cities explored
+
+## ✅ Day 3
+- [x] Analyzed missing values
+- [x] Calculated missing percentage
+- [x] Converted observations into preprocessing decisions
+- [x] Dropped rows with missing target values
+- [x] Removed Xylene feature with justification
+- [x] Used correlation analysis for feature evaluation
+- [x] Learned when to use Mean vs Median
