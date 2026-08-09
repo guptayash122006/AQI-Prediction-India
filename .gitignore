@@ -12,3 +12,12 @@ models/*.joblib
 .DS_Store
 
 .vscode/settings.json
+
+# Raw AQI datasets
+data/raw/
+
+# Python virtual environment
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
