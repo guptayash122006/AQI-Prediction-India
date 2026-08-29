@@ -37,11 +37,11 @@ The application provides an interactive Streamlit interface where users can ente
 
 ### Home Page
 
-![India AQI Prediction System - Home](images/home_page.png)
+![India AQI Prediction System - Home](images/app_input.png)
 
 ### AQI Prediction Input Interface
 
-![AQI Prediction Input Interface](images/prediction_input.png)
+![AQI Prediction Input Interface](images/app_result.png)
 
 ---
 
@@ -134,12 +134,12 @@ AQI-Prediction-India/
 ├── notebooks/
 │
 ├── reports/
+|
+├── images/
+│   ├── app_input.png
+│   └── app_result.png
 │
 ├── src/
-│
-├── images/
-│   ├── app-preview.png
-│   └── project-structure.png
 |
 ├── main.py
 ├── requirements.txt
