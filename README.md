@@ -120,10 +120,6 @@ AQI Category: Satisfactory
 ```text
 AQI-Prediction-India/
 │
-├── images/
-│   ├── app-preview.png
-│   └── project-structure.png
-│
 ├── data/
 │   ├── raw/
 │   └── processed/
@@ -141,6 +137,10 @@ AQI-Prediction-India/
 │
 ├── src/
 │
+├── images/
+│   ├── app-preview.png
+│   └── project-structure.png
+|
 ├── main.py
 ├── requirements.txt
 ├── .gitignore
