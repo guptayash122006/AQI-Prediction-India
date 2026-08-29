@@ -33,6 +33,18 @@ The application provides an interactive Streamlit interface where users can ente
 
 ---
 
+## 🖥️ Application Preview
+
+### Home Page
+
+![India AQI Prediction System - Home](images/home_page.png)
+
+### AQI Prediction Input Interface
+
+![AQI Prediction Input Interface](images/prediction_input.png)
+
+---
+
 ## 🧠 Machine Learning Models
 
 This project uses two Machine Learning models to generate predictions.
@@ -99,17 +111,7 @@ AQI Category: Satisfactory
 - Streamlit
 - Machine Learning
 
----
 
-## 🖥️ Application Preview
-
-The application allows users to enter air pollutant values, location details, and historical PM2.5 information to generate AQI predictions.
-
-> Add your Streamlit application screenshot here once you save it inside the `images` folder.
-
-```markdown
-![Application Preview](images/app-preview.png)
-```
 
 ---
 
