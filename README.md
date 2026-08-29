@@ -6,7 +6,7 @@ An end-to-end Machine Learning application that predicts the **Air Quality Index
 
 ## 🚀 Live Demo
 
-🔗 **Streamlit App:** YOUR_STREAMLIT_APP_LINK
+🔗 **Streamlit App:** https://aqi-prediction-india-yash.streamlit.app/
 
 🔗 **GitHub Repository:** https://github.com/guptayash122006/AQI-Prediction-India
 
