@@ -134,13 +134,15 @@ AQI-Prediction-India/
 ├── notebooks/
 │
 ├── reports/
-|
+│   └── progress.md
+│
 ├── images/
 │   ├── app_input.png
-│   └── app_result.png
+│   ├── app_result.png
+│   └── project-structure.png
 │
 ├── src/
-|
+│
 ├── main.py
 ├── requirements.txt
 ├── .gitignore
