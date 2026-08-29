@@ -1,10 +1,12 @@
 # 🌍 India AQI Prediction System
 
-An end-to-end Machine Learning application that predicts the **Air Quality Index (AQI)** and its corresponding **AQI Category** using air pollutant data, location, time, and historical PM2.5 information.
+An end-to-end Machine Learning application that predicts the **Air Quality Index (AQI)** and its corresponding **AQI Category** using air pollutant concentrations, location, time, and historical PM2.5 information.
+
+---
 
 ## 🚀 Live Demo
 
-🔗 **Streamlit App:** https://aqi-prediction-india-yash.streamlit.app/
+🔗 **Streamlit App:** YOUR_STREAMLIT_APP_LINK
 
 🔗 **GitHub Repository:** https://github.com/guptayash122006/AQI-Prediction-India
 
@@ -12,12 +14,9 @@ An end-to-end Machine Learning application that predicts the **Air Quality Index
 
 ## 📌 Project Overview
 
-Air pollution is a major environmental concern in India. This project applies Machine Learning techniques to analyze air pollutant data and predict:
+Air pollution is a major environmental concern in India. This project applies Machine Learning techniques to analyze air pollutant data and predict both the numerical AQI value and its corresponding AQI category.
 
-- Numerical AQI Value
-- AQI Category
-
-The application provides an interactive Streamlit interface where users can enter pollutant values and environmental information to receive predictions.
+The application provides an interactive Streamlit interface where users can enter pollutant concentrations, location information, seasonal data, and historical PM2.5 values to generate predictions.
 
 ---
 
@@ -28,7 +27,7 @@ The application provides an interactive Streamlit interface where users can ente
 - 🏙️ Indian City Selection
 - 🌦️ Seasonal Information
 - 📈 Historical PM2.5 Features
-- 🧠 Machine Learning Models
+- 🧠 Machine Learning-Based Predictions
 - 🖥️ Interactive Streamlit Web Application
 - ☁️ Cloud Deployment
 
@@ -36,13 +35,13 @@ The application provides an interactive Streamlit interface where users can ente
 
 ## 🧠 Machine Learning Models
 
-This project uses two Machine Learning models.
+This project uses two Machine Learning models to generate predictions.
 
 ### 1. AQI Regression Model
 
-The regression model predicts the numerical AQI value.
+The regression model predicts the numerical Air Quality Index value.
 
-Example:
+**Example:**
 
 ```text
 Predicted AQI: 104.92
@@ -50,9 +49,9 @@ Predicted AQI: 104.92
 
 ### 2. AQI Classification Model
 
-The classification model predicts the AQI category.
+The classification model predicts the AQI category based on the provided environmental and pollutant data.
 
-Example:
+**Example:**
 
 ```text
 AQI Category: Satisfactory
@@ -76,7 +75,7 @@ AQI Category: Satisfactory
 - Benzene
 - Toluene
 
-### Location and Time
+### Location and Time Information
 
 - City
 - Year
@@ -102,10 +101,26 @@ AQI Category: Satisfactory
 
 ---
 
+## 🖥️ Application Preview
+
+The application allows users to enter air pollutant values, location details, and historical PM2.5 information to generate AQI predictions.
+
+> Add your Streamlit application screenshot here once you save it inside the `images` folder.
+
+```markdown
+![Application Preview](images/app-preview.png)
+```
+
+---
+
 ## 📂 Project Structure
 
 ```text
 AQI-Prediction-India/
+│
+├── images/
+│   ├── app-preview.png
+│   └── project-structure.png
 │
 ├── data/
 │   ├── raw/
@@ -129,6 +144,10 @@ AQI-Prediction-India/
 ├── .gitignore
 └── README.md
 ```
+
+### Project Structure Visualization
+
+![Project Structure](images/project-structure.png)
 
 ---
 
@@ -170,7 +189,7 @@ pip install -r requirements.txt
 
 ## ▶️ Run the Application
 
-Run:
+Run the following command:
 
 ```bash
 streamlit run main.py
@@ -208,7 +227,7 @@ AQI Prediction
 
 ---
 
-## 📈 Example Output
+## 📈 Example Prediction
 
 | Output | Example Result |
 |---|---|
@@ -219,12 +238,13 @@ AQI Prediction
 
 ## 🔮 Future Improvements
 
-- Real-time Air Quality API integration
-- Interactive data visualizations
-- AQI trend analysis
-- Model performance dashboard
-- Support for more Indian cities
-- Docker containerization
+- Real-time Air Quality API Integration
+- Interactive Data Visualizations
+- AQI Trend Analysis
+- Model Performance Dashboard
+- Support for More Indian Cities
+- Docker Containerization
+- Cloud-Based Deployment Improvements
 
 ---
 
